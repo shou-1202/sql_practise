@@ -1,0 +1,16 @@
+CREATE DATABASE XYZ;
+USE XYZ;
+CREATE TABLE EMPLOYEE_INFO(
+   id INT PRIMARY KEY,
+   name VARCHAR(50) NOT NULL,
+   Salary INT NOT NULL
+   );
+   
+INSERT INTO EMPLOYEE_INFO
+(id, name, salary)
+VALUES
+(1, "adam", 25000),
+(2, "bob", 30000),
+(3, "casey", 40000);
+
+SELECT * FROM EMPLOYEE_INFO;
